@@ -2,6 +2,11 @@
 
 With the release of the new Guardians of the Galaxy game, dive back into the saga with this little web application! This project is part of the course "Interactive motion" at the Erasmushogeschool Brussel.
 
+Download the repo and follow these steps.
+
+### `npm i`
+
+Install the node_modules.
 
 ### `npm start`
 
