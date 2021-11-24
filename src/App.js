@@ -64,7 +64,7 @@ class App extends React.Component{
     render(){
         return (
             <div className='hello'>
-                <Music state={this.state.audio} cover={this.state.button ? "cover-moving": ""} title={this.state.button ? "title-play": ""} class={this.state.button ? "pause": "play"} playimage={this.state.button ? faPause : faPlay} click={this.handleClick}/> 
+                <Music state={this.state.audio} cover={this.state.button ? "cover-moving" : ""} title={this.state.button ? "title-play" : ""} class={this.state.button ? "pause": "play"} playimage={this.state.button ? faPause : faPlay} click={this.handleClick}/> 
                 <Header class={this.state.button ? "header-breathe": "header-static"} /> 
                 <Render rotate={this.state.button ? 0.01 : 0} /> 
                 <MouseParticles g={1} num={2.5} life={1} radius={5} v={2}  alpha={.8} color={["#8B377C", "white", "#B43078" ]} cull="MuiSvgIcon-root,MuiButton-root" />
