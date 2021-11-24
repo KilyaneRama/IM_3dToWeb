@@ -5,11 +5,6 @@ import music from '../assets/song.mp3'
 import { useRef } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-
-
-
-
-
 export default function Music(props) {
   // Create state
   
